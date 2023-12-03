@@ -1,0 +1,9 @@
+service ssu-teecl /vendor/bin/vendor.samsung.hardware.security.ssu-service
+    interface aidl vendor.samsung.hardware.security.ssu.ISehSSUTEECL/default
+    class hal
+    disabled
+    user system
+    group system
+
+on property:ssu.support=0
+    stop ssu-teecl
