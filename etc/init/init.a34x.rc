@@ -110,10 +110,6 @@ on post-fs-data
     mkdir /data/vendor/log 0771 root system
     mkdir /data/vendor/log/adsp 0775 audioserver system
 
-# Audio dump
-    mkdir /data/vendor/audiohal 0775 audioserver system
-    mkdir /data/vendor/audiohal/audio_dump 0775 audioserver system
-
 service adsp_log /vendor/bin/adsp_log
     class late_start
     user audioserver

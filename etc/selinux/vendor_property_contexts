@@ -173,6 +173,9 @@ vendor.TEEGRIS.                             u:object_r:vendor_teegris_prop:s0
 
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-8969
 vendor.bluetooth_slimbus_fail				u:object_r:vendor_bluetooth_prop:s0											
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-9836
+ro.vendor.uwb.feature.chipname                 u:object_r:vendor_uwb_feature_prop:s0
 #line 1 "out/soong/.intermediates/system/sepolicy/vendor_property_contexts/android_common/gen/namespace_checked/vendor/samsung/system/sepolicy/BSP/mediatek/mediatek_common/property_contexts"
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-3483
 vendor.dp.					        u:object_r:vendor_dp_prop:s0

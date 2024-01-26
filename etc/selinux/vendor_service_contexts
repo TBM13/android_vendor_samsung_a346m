@@ -104,6 +104,18 @@ vendor.samsung.hardware.displayquality.ISehDisplayQuality/default               
 
 # https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-9587
 vendor.samsung.hardware.security.wsm.service.ISehWsm/default                      u:object_r:hal_wsm_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-9809
+vendor.samsung.hardware.security.engmode.ISehEngmode/default											u:object_r:hal_engmode_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-9895
+vendor.samsung.hardware.security.hermes.ISehHermesCommand/default                      u:object_r:hal_hermes_service:s0
+
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-9930
+vendor.samsung.hardware.security.vaultkeeper.ISehVaultKeeper/default		   u:object_r:hal_vaultkeeper_service:s0
+		
+# https://mobilerndhub.sec.samsung.net/its/browse/SEANDROID-9977
+vendor.samsung.hardware.security.rtts.ISehRealTimeToken/default         u:object_r:hal_rtss_service:s0
 #line 1 "device/mediatek/sepolicy/bsp/non_plat/service_contexts"
 # ==============================================
 # MTK Policy Rule

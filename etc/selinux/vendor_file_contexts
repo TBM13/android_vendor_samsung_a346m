@@ -205,6 +205,7 @@
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.softsimd@1\.0-service							u:object_r:hal_softsimd_default_exec:s0
 /(vendor|system/vendor)/bin/hw/nxp\.android\.hardware\.uwb-service                 u:object_r:hal_uwb_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.biometrics\.face-service    u:object_r:hal_face_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.biometrics\.face@3\.0-service  u:object_r:hal_face_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth@1\.1-service-qti     	 u:object_r:hal_bluetooth_qti_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.displayquality-service      u:object_r:hal_display_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.samsung\.hardware\.security\.wsm-service          u:object_r:hal_wsm_default_exec:s0
@@ -1993,6 +1994,7 @@
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.kg@1\.0-service                      u:object_r:hal_kgta_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.authfw@1\.0-service                      u:object_r:hal_authfw_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.kg@1\.1-service                      u:object_r:hal_kgta_default_exec:s0
+/vendor/bin/vendor\.samsung\.hardware\.security\.rtts-service    u:object_r:hal_rtss_default_exec:s0
 /sys/devices/virtual/android_usb/android0/terminal_version      u:object_r:sysfs_android_usb:s0
 /sys/module/pm_8x60/modes/cpu0/power_collapse/idle_enabled              u:object_r:sysfs_ss_writable:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.atn@1\.0-service                  u:object_r:hal_atn_default_exec:s0
@@ -2007,11 +2009,14 @@
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.tima@1\.0-service                      u:object_r:hal_tima_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.tima@1\.1-service                      u:object_r:hal_tima_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.snap@1\.2-service-lazy      u:object_r:snap_hidl_exec:s0
+/vendor/bin/vendor\.samsung\.hardware\.security\.engmode-service    u:object_r:hal_engmode_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.payment@1\.0-service                      u:object_r:hal_payment_default_exec:s0
+/vendor/bin/hw/vendor\.samsung\.hardware\.security\.hermes-service    u:object_r:hal_hermes_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.snap@1\.2-service-nonlazy      u:object_r:snap_hidl_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.mpos_tui@1\.0-service                  u:object_r:hal_mpostui_default_exec:s0
 /vendor/bin/vendor\.samsung\.hardware\.security\.fkeymaster-service    u:object_r:hal_fkey_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.arcounter@1\.0-service                      u:object_r:hal_arcounter_default_exec:s0
+/vendor/bin/vendor\.samsung\.hardware\.security\.vaultkeeper-service				u:object_r:hal_vaultkeeperd_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.tlc\.blockchain@1\.0-service                      u:object_r:hal_blockchain_default_exec:s0
 /vendor/bin/hw/vendor\.samsung\.hardware\.media\.converter@1\.0-service      u:object_r:hal_converter_default_exec:s0
 /vendor/bin/vendor\.samsung\.hardware\.security\.vaultkeeper@1\.0-service      u:object_r:vaultkeeperd_exec:s0

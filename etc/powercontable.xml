@@ -820,11 +820,4 @@
         <MaxValue>65535</MaxValue>
         <MinValue>0</MinValue>
     </CMD>
-    <CMD name="PERF_RES_POWER_CPUIDLE_MCDI_ENABLE" id="0x01c3c000">
-        <Entry path="/proc/cpuidle/enable"></Entry>
-        <Compare>less</Compare>
-        <MaxValue>1</MaxValue>
-        <MinValue>0</MinValue>
-        <DefaultValue>1</DefaultValue>
-    </CMD>
 </CONTABLE>

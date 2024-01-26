@@ -1,4 +1,6 @@
 
+
+13113Test"Emma
 
 20201
 GR COSMOTE"C-OTE
@@ -232,8 +234,6 @@ Telenor SE"TelenorS
 24803Tele2 EE"Tele2 EE
 
 25001MTS RUS"MTS RUS
-
-25002MegaFon RUS"Megafon
 
 25020Tele2 RU"Tele2
 
@@ -273,9 +273,8 @@ Beeline UA"Beeline
 26003	Orange PL"Orange
 
 26006Play"Play
-
-26201
-Telekom.de"TDG
++
+26201Telekom Deutschland GER"Telekom
  
 26202vodafone.de"Vodafone
 
@@ -283,7 +282,7 @@ Telekom.de"TDG
 
 26207o2 - de"o2 - de
 
-2620231+1"1+1
+2620231&1"1&1
 
 26601GIBTEL"GIBTEL
 
@@ -438,6 +437,8 @@ SPM AMERIS"AMERIS
 310020US - Union Telephone"UnionTel
 
 310030AT&T"AT&T
+
+310040Mobi"Mobi
 
 310050GCI"GCI
 
@@ -526,6 +527,10 @@ SPM AMERIS"AMERIS
 311370GCI"GCI
 
 311480Verizon"Verizon
+
+311490T-Mobile"T-Mobile
+
+311500Mobi"Mobi
 
 311530PTCI"PTCI
 
@@ -542,10 +547,14 @@ $
 311660	Metro PCS"MPCS
 
 311740TCI"TCI
+
+311882T-Mobile"T-Mobile
 
 311990VTW US"VTW
 #
 312180Limitless Mobile"LMUSA
+
+312250T-Mobile"T-Mobile
 
 312260USACL"USACL
 
@@ -576,6 +585,8 @@ NetGenuity"NetGenui
 313380OptimERA"OptimERA
 %
 313450Spectrum Mobile"Spectrum
+
+313460Mobi"Mobi
 #
 313790Liberty Mobile"Liberty
 
@@ -963,8 +974,6 @@ stc Kuwait"stc
 Mobily-KSA"Mobily
 
 42004Zain KSA"Zain KSA
-
-42009salam mobile"salam
 
 42202Omantel"Omantel
  
@@ -1334,6 +1343,8 @@ CK KOKANET"KOKANET
 55201PalauCel"PalauCel
 
 55299PLW PMCI"PMCI
+
+55301TV TTC"TTC
 
 55401Teletok"TTOK
 
@@ -1487,8 +1498,8 @@ Orange RDC"Orange
 MTN RWANDA"MTN
 
 63513Airtel"Airtel
-
-63601ETH MTN"ET-MTN
+"
+63601ethio telecom"ethiotel
 
 63701
 SO Telesom"Tele
@@ -1633,8 +1644,6 @@ TelkomSA-R"Telkom-R
 708030HND"HT - 200
 
 71021	CLARO NIC"ClaroNIC
-
-71073	CLARO NIC"ClaroNIC
 
 710300Tigo"Tigo
 
@@ -1768,6 +1777,8 @@ AeroMobile"AeroMob
 90115OnAir"OnAir
 
 90126TIM@sea"TIM@sea
++
+90140Telekom Deutschland GER"Telekom
 
 90144AT&T"AT&T
 
@@ -1777,4 +1788,4 @@ AeroMobile"AeroMob
 
 90150EchoStar Mobile"EML
 
-90171Tampnet"Tampnet%Published TS.25 Database 19 June 2023
+90171Tampnet"Tampnet*Published TS.25 Database 25 September 2023

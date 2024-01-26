@@ -80,6 +80,17 @@
       ]
     },
     {
+      "Name": "TaskTurbo",
+      "ID": "0x12002002",
+      "Handler": "mtk",
+      "BoostPath": "0x0300c000",
+      "Values": [
+        "0",
+        "15"
+      ],
+      "Priority": "low"
+    },
+    {
       "Name": "LPMDisable",
       "ID" : "0x10003000",
       "Handler" : "mtk",
@@ -420,6 +431,10 @@
         {
             "Resource" : "KERNEL_APP_START_NOTIFY",
             "Value" : "1"
+        },
+        {
+            "Resource" : "TaskTurbo",
+            "Value" : "15"
         }
       ]
     },
@@ -728,6 +743,10 @@
         {
             "Resource" : "KERNEL_APP_START_NOTIFY",
             "Value" : "1"
+        },
+        {
+            "Resource" : "TaskTurbo",
+            "Value" : "15"
         }
       ]
     },
@@ -870,6 +889,10 @@
         {
             "Resource" : "KERNEL_APP_START_NOTIFY",
             "Value" : "1"
+        },
+        {
+            "Resource" : "TaskTurbo",
+            "Value" : "15"
         }
       ]
     },
@@ -909,6 +932,10 @@
         {
             "Resource" : "KERNEL_APP_START_NOTIFY",
             "Value" : "1"
+        },
+        {
+            "Resource" : "TaskTurbo",
+            "Value" : "15"
         }
       ]
     },
@@ -970,6 +997,10 @@
         {
             "Resource" : "KERNEL_APP_START_NOTIFY",
             "Value" : "1"
+        },
+        {
+            "Resource" : "TaskTurbo",
+            "Value" : "15"
         }
       ]
     },
@@ -1054,6 +1085,10 @@
         {
             "Resource" : "LPMDisable",
             "Value" : "0"
+        },
+        {
+            "Resource" : "TaskTurbo",
+            "Value" : "15"
         }
       ]
     },

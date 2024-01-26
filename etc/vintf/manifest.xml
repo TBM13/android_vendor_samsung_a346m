@@ -21,7 +21,6 @@
         manifest_composer.xml
         manifest.xml
         manifest.xml
-        manifest_mediatek.xml
         face-default-sec.xml
         manifest.xml
         manifest.xml
@@ -35,8 +34,6 @@
         manifest.xml
         manifest_gnss_2_1.xml
         manifest_isehgnss_2_0.xml
-        radio_manifest_ds.xml
-        radio_manifest_ds.xml
 -->
 <manifest version="4.0" type="device" target-level="5">
     <hal format="hidl">
@@ -169,32 +166,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IMemtrack/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>android.hardware.radio</name>
-        <transport>hwbinder</transport>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>android.hardware.radio</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.2::ISap/slot1</fqname>
-        <fqname>@1.2::ISap/slot2</fqname>
-        <fqname>@1.5::IRadio/slot1</fqname>
-        <fqname>@1.5::IRadio/slot2</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>android.hardware.radio.config</name>
-        <transport>hwbinder</transport>
-        <version>1.1</version>
-        <interface>
-            <name>IRadioConfig</name>
-            <instance>default</instance>
-        </interface>
-        <fqname>@1.1::IRadioConfig/default</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>android.hardware.radio.deprecated</name>
-        <transport>hwbinder</transport>
     </hal>
     <hal format="hidl">
         <name>android.hardware.renderscript</name>
@@ -329,10 +300,6 @@
         </interface>
         <fqname>@2.0::INeuronXrp/default</fqname>
     </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.mediatek.hardware.atci</name>
-        <transport>hwbinder</transport>
-    </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.bluetooth.audio</name>
         <transport>hwbinder</transport>
@@ -446,10 +413,6 @@
         <fqname>@1.2::IMtkPerf/default</fqname>
         <fqname>@1.2::IMtkPower/default</fqname>
     </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.mediatek.hardware.mtkradioex</name>
-        <transport>hwbinder</transport>
-    </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.netdagent</name>
         <transport>hwbinder</transport>
@@ -490,9 +453,15 @@
         </interface>
         <fqname>@2.11::IPictureQuality/default</fqname>
     </hal>
-    <hal format="hidl" override="true">
+    <hal format="hidl">
         <name>vendor.mediatek.hardware.videotelephony</name>
         <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IVideoTelephony</name>
+            <instance>default</instance>
+        </interface>
+        <fqname>@1.0::IVideoTelephony/default</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.samsung.hardware.audio</name>
@@ -559,46 +528,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@2.0::ISehMiscPower/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.radio</name>
-        <transport>hwbinder</transport>
-        <version>2.2</version>
-        <interface>
-            <name>ISehRadio</name>
-            <instance>slot1</instance>
-            <instance>slot2</instance>
-        </interface>
-        <fqname>@2.2::ISehRadio/slot1</fqname>
-        <fqname>@2.2::ISehRadio/slot2</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.radio.bridge</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ISehBridge</name>
-            <instance>slot1</instance>
-            <instance>slot2</instance>
-        </interface>
-        <fqname>@2.0::ISehBridge/slot1</fqname>
-        <fqname>@2.0::ISehBridge/slot2</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.samsung.hardware.radio.channel</name>
-        <transport>hwbinder</transport>
-        <version>2.0</version>
-        <interface>
-            <name>ISehChannel</name>
-            <instance>epdgd</instance>
-            <instance>epdgd2</instance>
-            <instance>imsd</instance>
-            <instance>imsd2</instance>
-        </interface>
-        <fqname>@2.0::ISehChannel/epdgd</fqname>
-        <fqname>@2.0::ISehChannel/epdgd2</fqname>
-        <fqname>@2.0::ISehChannel/imsd</fqname>
-        <fqname>@2.0::ISehChannel/imsd2</fqname>
     </hal>
     <hal format="hidl" override="true">
         <name>vendor.samsung.hardware.security.drk</name>

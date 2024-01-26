@@ -69,7 +69,6 @@ vendor.samsung.hardware.security.stork::ISehStork                u:object_r:hal_
 vendor.samsung.hardware.secinputdev::ISehInputDevice                          u:object_r:hal_sec_inputdev_hwservice:s0
 vendor.samsung.hardware.sysinput::ISehSysInputDev                          u:object_r:hal_sec_inputdev_hwservice:s0
 vendor.samsung.hardware.tlc.kg::ISehKg                u:object_r:hal_kgta_hwservice:s0
-vendor.samsung.hardware.security.engmode::ISehEngmode                   u:object_r:hal_engmode_hwservice:s0
 vendor.samsung.hardware.thermal::ISehThermal                         u:object_r:hal_thermal_hwservice:s0
 vendor.samsung.hardware.tlc.snap::ISehSnapSec                           u:object_r:hal_snapsec_hwservice:s0
 vendor.samsung.hardware.tlc.snap@1.0::ISehSnapSec                       u:object_r:hal_snapsec_hwservice:s0
@@ -88,6 +87,7 @@ vendor.samsung.hardware.ifaa::ISehIfaa													u:object_r:hal_ifaa_hwservice
 vendor.samsung.hardware.softsimd::ISehSoftsimd											u:object_r:hal_softsimd_hwservice:s0
 vendor.samsung.hardware.camera.vcc::ISehVccCameraManager		u:object_r:hal_camera_hwservice:s0
 vendor.samsung.hardware.camera.vcc@1.0::ISehVccCameraManager		u:object_r:hal_camera_hwservice:s0
+vendor.samsung.hardware.security.engmode::ISehEngmode                   u:object_r:hal_engmode_hwservice:s0
 vendor.samsung.hardware.digitaltv.fullseg::IFullseg      u:object_r:digitaltv_fullseg_hwservice:s0
 vendor.samsung.hardware.dtvtuner::IDtvTuner               u:object_r:digitaltv_fullseg_hwservice:s0
 vendor.mediatek.hardware.bluetooth::IMtkBluetoothHci u:object_r:mtk_hal_bluetooth_hwservice:s0

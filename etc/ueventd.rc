@@ -211,3 +211,6 @@
 
 # AT+MTKEDLBK
 /dev/block/by-name/btd    0660    root    system
+
+# PROCA dev config
+/dev/proca_config         0440   system     system

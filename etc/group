@@ -13,6 +13,7 @@ vendor_networkdiagnostic::5023:
 vendor_mdxkit::5025:
 vendor_sharelive::5026:
 vendor_asf_awareshare::5027:
+vendor_dsms::5031:
 vendor_secdir::5050:
 vendor_knoxcore::5250:
 vendor_spass::5278:

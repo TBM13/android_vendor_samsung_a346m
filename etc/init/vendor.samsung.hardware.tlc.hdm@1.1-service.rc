@@ -23,3 +23,7 @@ service hdm_status_sh /vendor/bin/sh /vendor/bin/hdm_status.sh ${ro.boot.hdm_sta
 
 on property:ro.boot.hdm_status=*
     start hdm_status_sh
+
+on property:vendor.hdm.internal.cpm=boot
+    stop cass
+

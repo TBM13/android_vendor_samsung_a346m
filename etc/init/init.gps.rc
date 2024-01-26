@@ -30,13 +30,6 @@ service agpsd /vendor/bin/mtk_agpsd
     user gps
     group gps radio inet sdcard_r sdcard_rw misc system
 
-# GPS Debug Process
-service lbs_dbg /system/bin/lbs_dbg
-    class main
-    user shell
-    group log system gps inet misc sdcard_rw sdcard_r media_rw radio
-    socket lbs_dbg stream 660 gps system
-
 on property:dev.gnss.silentlogging=ON
     mkdir /data/vendor/gps/silentGnssLogging 0771 system system
 

@@ -47,7 +47,7 @@
         <version>1.0</version>
         <config>1</config>
         <format>L5_DCB_GPS,L5_DCB_QZSS,L5_DCB_CNSS,L5_DCB_GALILEO</format>
-        <setting>2.45,2.45,-0.38,1.18</setting>
+        <setting>2.78,2.80,8.84,2.18</setting>
     </feature>
 
     <feature>L1Only
@@ -89,7 +89,14 @@
         <version>1.0</version>
         <config>1</config>
         <format> CH:-7 to 6 </format>
-        <setting> -7.4,-6.0,-6.0,0.4,-0.5,-3.6,-1.0,0,0.3,-1.2,0.5,0.5,-1.0,-1.7</setting>
+        <setting>-10.36,-9.72,-7.77,-2.14,-1.15,-4.70,-1.15,0,-0.76,-0.42,-1.26,-1.93,-3.74,-5.19</setting>
+    </feature>
+    
+    <feature>GGTO
+        <version>1.0</version>
+        <config>1</config>
+        <format> GLONASS time offset, BEIDOU time offset, GALILEO time offset, NAVIC time offset, Unit: meter </format>
+        <setting>11.26,-7.34,2.70,20.94</setting>
     </feature>
     
 </mnl_config>

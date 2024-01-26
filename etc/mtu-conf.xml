@@ -149,6 +149,9 @@ mtuTableEntry attributes:
 <!-- Digi Mobil Hungary -->
     <mtuTableEntry numeric="21603" mtu="1400" profile="2"/>
 
+<!-- DIGI Spain -->
+    <mtuTableEntry numeric="21422" mtu="1280"  rat="4"/>
+
 <!-- VIPnet -->
     <mtuTableEntry numeric="21910" mtu="1330" profile="2"/>
     <mtuTableEntry numeric="21910" mtu="1330" rat="4"/>
@@ -239,6 +242,9 @@ mtuTableEntry attributes:
 <!-- Elisa Finland VoLTE VoWifi -->
     <mtuTableEntry numeric="24405" mtu="1300" profile="2"/>
 
+<!-- Alcom Finland -->
+    <mtuTableEntry numeric="24414" mtu="1358" profile="2"/>
+
 <!--  Lithuania Omnitel -->
     <mtuTableEntry numeric="24601" mtu="1300" profile="2"/>
 
@@ -287,9 +293,6 @@ mtuTableEntry attributes:
 <!-- VF DE for Test lab -->
     <mtuTableEntry numeric="26209" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="26209" mtu="1280" rat="4"/>    
-	
-<!-- Portugal-MEO -->
-    <mtuTableEntry numeric="26806" mtu="1280" rat="4"/>
 
 <!-- Portugal-NOS -->
     <mtuTableEntry numeric="26803" mtu="1380" profile="2"/>
@@ -359,6 +362,12 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="302520" mtu="1280" rat="4"/>
     <mtuTableEntry numeric="302512" mtu="1280" rat="4"/>
 
+<!-- SaskTel -->
+    <mtuTableEntry numeric="302681" mtu="1280" rat="4"/>
+    <mtuTableEntry numeric="302780" mtu="1280" rat="4"/>
+    <mtuTableEntry numeric="302681" mtu="1440" profile="2"/>
+    <mtuTableEntry numeric="302780" mtu="1440" profile="2"/>
+
 <!-- Saint Pierre et Miquelon Telecom -->
     <mtuTableEntry numeric="30803" mtu="1300" profile="2"/>
 
@@ -414,6 +423,12 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="330110" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="330110" mtu="1280" proto="2"/>
 
+<!-- Viya -->
+    <mtuTableEntry numeric="311320" mtu="1358"/>
+
+<!-- Liberty Puerto Rico -->
+    <mtuTableEntry numeric="313790" mtu="1280"/>
+
 <!-- Telcel Mexico -->
     <mtuTableEntry numeric="334020" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="334020" mtu="1280" proto="2"/>
@@ -443,9 +458,6 @@ mtuTableEntry attributes:
 
 <!-- BTC Bahamas -->
     <mtuTableEntry numeric="36439" mtu="1280"/>
-
-<!-- Azercell Azerbaijan -->
-    <mtuTableEntry numeric="40001" mtu="1280" rat="4"/>
 
 <!-- Beeline Kazakhstan -->
     <mtuTableEntry numeric="40101" mtu="1280" rat="4"/>
@@ -591,6 +603,7 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="46002" mtu="1300" profile="5"/>
     <mtuTableEntry numeric="46003" mtu="1300"/>
     <mtuTableEntry numeric="46003" mtu="1432" profile="2"/>
+    <mtuTableEntry numeric="46003" mtu="1280" profile="2" rat="4"/>
     <mtuTableEntry numeric="46003" mtu="1460" rat="3"/>
     <mtuTableEntry numeric="46006" mtu="1400"/>
     <mtuTableEntry numeric="46006" mtu="1300" profile="5"/>
@@ -599,8 +612,10 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="46009" mtu="1400"/>
     <mtuTableEntry numeric="46009" mtu="1300" profile="5"/>
     <mtuTableEntry numeric="46011" mtu="1432" profile="2"/>
+    <mtuTableEntry numeric="46011" mtu="1280" profile="2" rat="4"/>
     <mtuTableEntry numeric="46011" mtu="1460"/>
     <mtuTableEntry numeric="46012" mtu="1432" profile="2"/>
+    <mtuTableEntry numeric="46012" mtu="1280" profile="2" rat="4"/>
     <mtuTableEntry numeric="46012" mtu="1460"/>
     <mtuTableEntry numeric="46015" mtu="1400"/>
 
@@ -622,6 +637,10 @@ mtuTableEntry attributes:
 <!--  Vodafone VAU -->
     <mtuTableEntry numeric="50503" mtu="1280" profile="2"/>
     <mtuTableEntry numeric="50503" mtu="1280" rat="4"/>
+
+<!--  Telkomsel ID -->
+    <mtuTableEntry numeric="51010" mtu="1280" profile="2"/>
+    <mtuTableEntry numeric="51010" mtu="1280" rat="4"/>
 
 <!--  Telstra Operators -->
     <mtuTableEntry numeric="51502" mtu="1300" proto="2"/>
@@ -685,9 +704,15 @@ mtuTableEntry attributes:
     <mtuTableEntry numeric="71610" mtu="1300" proto="1"/>
     <mtuTableEntry numeric="71610" mtu="1280" proto="2"/>
 
+<!-- Cellone Bermuda -->
+    <mtuTableEntry numeric="350000" mtu="1352" profile="2"/>
+
 <!-- Claro Argentina -->
     <mtuTableEntry numeric="722310" mtu="1280" proto="2"/>
     <mtuTableEntry numeric="72231" mtu="1280" proto="2"/>
+
+<!-- Claro Paraguay -->
+    <mtuTableEntry numeric="74402" mtu="1280" proto="2"/>
 
 <!-- Personal Argentina -->	
     <mtuTableEntry numeric="72234" mtu="1300" profile="2"/>
